@@ -1,0 +1,22 @@
+import java.util.*;
+
+class Program481
+{
+    public static void main(String Arg[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.println("Enter string");
+        String str = sobj.nextLine();
+
+        char Arr[] = str.toCharArray();
+
+        for(int i = 0; i < Arr.length; i++)
+        {
+            if(Arr[i] >= 'A' &&  Arr[i] <= 'Z')
+            {
+                Arr[i] = Arr[i] + 32;
+            }
+        }
+    }
+}
