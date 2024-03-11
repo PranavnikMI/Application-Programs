@@ -1,0 +1,12 @@
+#first Makefile
+all:
+	gcc Demo.c -o myexe
+
+run:
+	./myexe
+
+clean:
+	rm myexe
+
+usage:
+	@echo"use run  target to execute the code"
