@@ -1,0 +1,15 @@
+<h1>{{Batches[0]}}</h1>
+<h1>{{Batches[1]}}</h1>
+<h1>{{Batches[2]}}</h1>
+<h1>{{Batches[3]}}</h1>
+
+
+<h1>Data by using Ngfor is</h1>
+
+<div *ngFor = "let X of Batches; index as i">
+  <h1>{{i}}{{X}}</h1>
+</div>
+
+<div *ngFor = "let Y of Fees">
+  <h1>{{Y}}</h1>
+</div>
